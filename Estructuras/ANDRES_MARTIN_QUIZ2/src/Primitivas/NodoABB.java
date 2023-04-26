@@ -1,0 +1,89 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Primitivas;
+
+/**
+ *
+ * @author Andres
+ */
+public class NodoABB {
+    
+    private NodoABB left;
+    private NodoABB right;
+    private int element;
+    private int procedencia;
+
+    public NodoABB() {
+    }
+
+    public NodoABB(int element) {
+        this.element = element;
+    }
+
+    public NodoABB(int element,int procedencia) {
+        this.element = element;
+        this.procedencia = procedencia;
+    }
+    
+    /**
+     * @return the left
+     */
+    public NodoABB getLeft() {
+        return left;
+    }
+
+    /**
+     * @param left the left to set
+     */
+    public void setLeft(NodoABB left) {
+        this.left = left;
+    }
+
+    /**
+     * @return the right
+     */
+    public NodoABB getRight() {
+        return right;
+    }
+
+    /**
+     * @param right the right to set
+     */
+    public void setRight(NodoABB right) {
+        this.right = right;
+    }
+
+    /**
+     * @return the element
+     */
+    public int getElement() {
+        return element;
+    }
+
+    /**
+     * @param element the element to set
+     */
+    public void setElement(int element) {
+        this.element = element;
+    }
+
+    /**
+     * @return the procedencia
+     */
+    public int getProcedencia() {
+        return procedencia;
+    }
+
+    /**
+     * @param procedencia the procedencia to set
+     */
+    public void setProcedencia(int procedencia) {
+        this.procedencia = procedencia;
+    }
+    
+    
+    
+}
